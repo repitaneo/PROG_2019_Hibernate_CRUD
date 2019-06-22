@@ -2,49 +2,52 @@ package com.naranco.crudhibernate.util;
 
 import java.util.List;
 
+import javax.persistence.EntityManager;
+
 import org.hibernate.Session;
 
 import com.naranco.crudhibernate.beans.Alumnado;
 
 public class Operaciones {
 
-	private Session sesion;
+	private EntityManager entity;
 	
 	
 	public Operaciones() {
 		
-		sesion = Conexion.getConexion().openSession();
+		entity = Conexion.getConexion();
 	}
 	
 	
 	
 	public void insertar(Alumnado alumnado) {
 		
-		sesion.beginTransaction();
-		sesion.delete(alumnado);
-		sesion.getTransaction().commit();
+		entity.getTransaction().begin();
+		entity.persist(alumnado);
+		entity.getTransaction().commit();
 	}
 	
 	
 	public void actualizar(Alumnado alumnado) {
 		
-		sesion.beginTransaction();
-		sesion.update(alumnado);
-		sesion.getTransaction().commit();
+		//entity.beginTransaction();
+		//entity.update(alumnado);
+		entity.getTransaction().commit();
 	}	
 	
 	
 	public void borrar(Alumnado alumnado) {
 		
-		sesion.beginTransaction();
-		sesion.delete(alumnado);
-		sesion.getTransaction().commit();
+		//entity.beginTransaction();
+		//entity.delete(alumnado);
+		entity.getTransaction().commit();
 	}	
 	
 	
+	@SuppressWarnings("unchecked")
 	public List<Alumnado> getAlumnado() {
 		
-		return sesion.createQuery("FROM Alumnado").list();
+		return entity.createQuery("FROM Alumnado").getResultList();
 
 	}
 }

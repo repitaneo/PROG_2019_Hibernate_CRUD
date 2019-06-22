@@ -6,6 +6,8 @@ import com.naranco.crudhibernate.util.Operaciones;
 
 import java.util.List;
 
+import javax.persistence.EntityManager;
+
 
 public class Start {
 
@@ -13,13 +15,44 @@ public class Start {
 		// TODO Auto-generated method stub
 
 
-		Operaciones operaciones = new Operaciones();
-		List <Alumnado> listado = operaciones.getAlumnado();
+		System.out.println("holaaaaa");
 		
+		
+		Alumnado alumno = new Alumnado();
+		alumno.setIdAlumnado(0);
+		alumno.setLocalidad("Oviedo");
+		alumno.setNombre("Marcos");
+		alumno.setTelefono("5555");
+		
+		
+		
+		Operaciones operaciones = new Operaciones();
+		operaciones.insertar(alumno);
+		
+		
+		
+		
+		List <Alumnado> listado = operaciones.getAlumnado();
 		for(Alumnado alumnado : listado ) {
 			
-			System.out.println(	alumnado.getIdAlumnado()+" "+
+			System.out.println("--> ["+	alumnado.getIdAlumnado()+"] "+
 								alumnado.getNombre());
-		}
+		}		
+		
+		
+	
+		
+		
+		/*
+		
+		
+
+		
+		
+		
+
+		*/
+		
+		
 	}
 }

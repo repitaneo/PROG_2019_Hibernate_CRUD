@@ -1,0 +1,87 @@
+
+Ecom.naranco.crudhibernate.beans.Alumnado#toString()Ljava/lang/String;∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java ("1*‡
+1∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 ( É
+Ä
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 (-
+%0java.lang.String"__concat*
+Alumnado [idAlumnado=*
+""â
+Ü
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 (;
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+	, nombre=ñ
+ì
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java> (D
+%2java.lang.String"__id*8*6*
+(com.naranco.crudhibernate.beans.Alumnado"
+nombreî
+ë
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 (D
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.Stringã
+à
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 (T
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+, telefono=ò
+ï
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.javaW (_
+%5java.lang.String"__id*:*8*
+(com.naranco.crudhibernate.beans.Alumnado"
+
+telefonoî
+ë
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 (_
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.Stringå
+â
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 (p
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+, localidad=ô
+ñ
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java (
+%8java.lang.String"__id*;*9*
+(com.naranco.crudhibernate.beans.Alumnado"
+	localidadî
+ë
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 (
+%9java.lang.String"__concat*
+
+%7java.lang.String*
+
+%8java.lang.StringÇ
+ˇ
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java	 (
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+]"÷
+∏
+≠M:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\beans\Alumnado.java (
+
+%10java.lang.StringB,*
+(com.naranco.crudhibernate.beans.Alumnado

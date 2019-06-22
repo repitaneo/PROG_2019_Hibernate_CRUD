@@ -1,0 +1,27 @@
+
+Hcom.naranco.crudhibernate.util.Operaciones#getAlumnado()Ljava/util/List;∫
+ØM:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\util\Operaciones.java- -(""1*á
+1∫
+ØM:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\util\Operaciones.java/	 /(ü
+ú
+∫
+ØM:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\util\Operaciones.java/	 /(
+%0org.hibernate.Session"__id*:*8,
+*com.naranco.crudhibernate.util.Operaciones"
+sesionîë
+∫
+ØM:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\util\Operaciones.java/	 /(,
+%1org.hibernate.query.Query"^org.hibernate.SharedSessionContract#createQuery(Ljava/lang/String;)Lorg/hibernate/query/Query;*
+
+%0org.hibernate.Session*
+FROM Alumnado2createQuery(Ljava/lang/String;)≥∞
+∫
+ØM:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\util\Operaciones.java/	 /(3
+%2java.util.List"0org.hibernate.query.Query#list()Ljava/util/List;*!
+
+%1org.hibernate.query.Query2list()"’
+∫
+ØM:\OneDrive\OneDrive - Consejer√≠a de Educaci√≥n y Cultura\_IES\programacion\proyectosEclipse\2019_Hibernate_CRUD\src\main\java\com\naranco\crudhibernate\util\Operaciones.java/ /(4
+
+%2java.util.ListB.,
+*com.naranco.crudhibernate.util.Operaciones
